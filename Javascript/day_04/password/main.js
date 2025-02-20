@@ -3,7 +3,7 @@ const btn = document.getElementById('btn-toggle');
 
 
 btn.addEventListener('click', () => {
-    if (passwordInput.type === 'password') {
+    if (passwordInput.type == 'password') {
         passwordInput.type = 'text';
         btn.textContent = 'Hide';
     } else {
