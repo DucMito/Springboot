@@ -15,12 +15,10 @@
 // heading.style.color = "red";
 // heading.style.textTransform = "uppercase";
 
+const heading = document.getElementById("heading");
+heading.style.color = "red";
+heading.style.textTransform = "uppercase";
 
-const heading5 = document.getElementById("heading");
-console.log('heading5');
-
-heading5.style.color = "red";
-heading5.style.textTransform = "uppercase";
 
 // 2.Thay đổi màu chữ của tất cả thẻ có class “para” thành màu “blue” và có font-size = “20px”
 // const paraList = document.querySelectorAll("p.para");
@@ -37,10 +35,8 @@ heading5.style.textTransform = "uppercase";
 //     para.style.fontSize = "20px";
 // });
 
-const paraList = document.querySelectorAll("p.para");
-console.log(paraList);
-
-Array.from(paraList).map((para) => {
+const paraList = document.querySelectorAll(".para");
+paraList.forEach((para) => {
     para.style.color = "blue";
     para.style.fontSize = "20px";
 });
@@ -52,15 +48,16 @@ Array.from(paraList).map((para) => {
 // console.log(link);
 
 
+
 // const content = document.querySelector(".content");
 // document.body.insertBefore(link, content);
 
-const link = document.createElement("a");
-link.href = "https://www.facebook.com/";
-link.innerHTML = "<b>Facebook</b>";
+// const link = document.createElement("a");
+// link.href = "https://www.facebook.com/";
+// link.innerHTML = "<b>Facebook</b>";
 
-const content = document.querySelector(".content");
-document.body.insertBefore(link, content);
+// const content = document.querySelector(".content");
+// document.body.insertBefore(link, content);
 
 
 
@@ -69,8 +66,7 @@ document.body.insertBefore(link, content);
 // const title = document.getElementById("title");
 // title.innerText = "Đây là thẻ tiêu đề";
 
-const title = document.getElementById("title");
-title.innerText = "Day la tieu de";
+// 
 
 // 5.Thêm class “text-bold” vào thẻ có class=“description” (định nghĩa class “text-bold” có tác dụng in đậm chữ)
 // const desription = document.querySelector(".description");
@@ -84,15 +80,7 @@ title.innerText = "Day la tieu de";
 //     desription.classList.toggle("text-bold");
 // }, 1000); //1000ms = 1s
 
-const description = document.querySelector(".description");
-description.classList.add("text-bold", "abc", "xyz");
-description.classList.remove("abc");
 
-console.log(description.classList.contains("xyz"));
-
-setInterval(() => {
-    description.classList.toggle("text-blod");
-}, 1000);
 
 
 
@@ -108,12 +96,6 @@ setInterval(() => {
 //     console.error("Không tìm thấy phần tử có class 'para-3'");
 // }
 
-const btn = document.createElement("button");
-btn.innerHTML = "Click me";
-console.log(btn);
-
-const p3 = document.querySelector(".para-3");
-document.body.replaceChild(btn, p3);
 
 
 // 7.Copy thẻ có class=“para-2” và hiển thị ngay đằng sau thẻ đó
@@ -121,9 +103,7 @@ document.body.replaceChild(btn, p3);
 // const p2Copy = p2.cloneNode(true);
 // document.body.insertBefore(p2Copy, btn);
 
-const p2 = document.querySelector(".para-2");
-const p2Copy = p2.cloneNode(true);
-document.body.insertBefore(p2Copy, btn);
+
 
 
 // 8.Xóa thẻ có class=“para-1”
@@ -131,8 +111,6 @@ document.body.insertBefore(p2Copy, btn);
 // // document.body.removeChild(p1);
 // p1.remove(".para-1");
 
-const p1 = document.querySelector(".para-1");
-document.body.removeChild(p1);
 
 // Thực hành: cho 1 aray có cấu trúc như sau: 
 // const socials = [
