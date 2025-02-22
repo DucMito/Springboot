@@ -2,7 +2,7 @@ const btn = document.getElementById('btn');
 const image = document.getElementById('image');
 const select = document.getElementById('breed-list');
 
-// Gọi API để lấy danh sách giống chó
+// Gọi API để lấy danh sách 
 async function getBreedList() {
     try {
         let res = await axios.get("https://dog.ceo/api/breeds/list/all");
@@ -12,18 +12,18 @@ async function getBreedList() {
     }
 }
 
-// Hiển thị danh sách giống chó trong thẻ select
+// Hiển thị danh sách trong thẻ select
 function renderBreed(breeds) {
-    select.innerHTML = '<option value="">Chọn giống chó</option>'; // Tùy chọn mặc định
+    select.innerHTML = '<option value="">Chọn giống chó</option>';
     Object.keys(breeds).forEach(breed => {
         let option = document.createElement('option');
         option.value = breed;
-        option.textContent = breed.charAt(0).toUpperCase() + breed.slice(1); // Viết hoa chữ cái đầu
+        option.textContent = breed.charAt(0).toUpperCase() + breed.slice(1);
         select.appendChild(option);
     });
 }
 
-// Gọi API để lấy hình ảnh của giống chó đã chọn
+// Gọi API để lấy hình ảnh đã chọn
 async function getDogImage() {
     let breed = select.value;
     if (!breed) {
@@ -38,8 +38,6 @@ async function getDogImage() {
     }
 }
 
-// Thêm sự kiện cho nút Fetch
 btn.addEventListener('click', getDogImage);
 
-// Chạy hàm lấy danh sách giống chó khi tải trang
 getBreedList();
