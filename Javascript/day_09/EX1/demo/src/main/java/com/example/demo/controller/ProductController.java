@@ -9,13 +9,12 @@ import java.util.List;
 @RestController
 public class ProductController {
     private List<Product> products = new ArrayList<>(List.of(
-            new Product("1","iphone 12","ngon",1222,"apple"),
-            new Product("2","iphone 13","ngon",1222,"apple"),
-            new Product("3","iphone 14","ngon",1220,"apple"),
-            new Product("4","iphone 15","ngon",1228,"apple"),
-            new Product("5","iphone 16","ngon",1227,"apple"),
-            new Product("6","iphone 17","ngon",1226,"apple"),
-            new Product("7","iphone 18","ngon",1224,"apple")));
+            new Product("1", "iPhone 12", "The latest iPhone", 999, "Apple"),
+            new Product("2", "Samsung Galaxy S21", "Flagship Samsung", 899, "Samsung"),
+            new Product("3", "MacBook Pro", "Powerful laptop", 1299, "Apple"),
+            new Product("4", "Sony WH-1000XM4", "Noise Cancelling Headphones", 349, "Sony"),
+            new Product("5", "Dell XPS 13", "Premium Windows Laptop", 1099, "Dell")
+    ));
 
     @GetMapping("/products")
     public List<Product> getProducts() {
