@@ -21,4 +21,11 @@ public class BookController {
         return books;
     }
     //2. lay chi tiet book theo id: GET -/book/{id}
+//    public Book getBookById(){
+//
+//    };
+
+
+
+
 }

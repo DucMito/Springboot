@@ -1,4 +1,5 @@
 package com.example.demo.model;
+import lombok.*;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
