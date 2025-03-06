@@ -20,10 +20,16 @@ public class BookController {
     public List<Book> getAllBooks(){
         return books;
     }
-    //2. lay chi tiet book theo id: GET -/book/{id}
-//    public Book getBookById(){
-//
-//    };
+//    2. lay chi tiet book theo id: GET -/book/{id}
+    @GetMapping("/book/{id}")
+    public Book getBookById(String id){
+        for(Book book: books){
+            if(book.getId().equals(id)){
+                return book;
+            }
+        }
+        return null;
+    };
 
 
 
