@@ -1,5 +1,7 @@
 package com.example.demo.db;
 
+import com.example.demo.model.Person;
+import com.example.demo.utils.file.IFileReader;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;

@@ -6,6 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 @Controller
@@ -31,30 +33,31 @@ public class PersonController {
     @GetMapping("/sortPeopleByFullName")
     public String sortByFullName(Model model) {
         List<Person> people = initDB.getPeople();
-        List<Person> sortedPeople = people.stream()
-                .sorted((o1, o2) -> o1.getFullName().compareTo(o2.getFullName()))
-                .toList();
-        model.addAttribute("sortedPeople", sortedPeople);
+        Collections.sort(people, (o1, o2) -> o1.getFullName().compareTo(o2.getFullName()));
+        model.addAttribute("sortedPeople", people);
         return "sorted-name"; // Trả về trang sắp xếp theo full name
     }
+
 
     @GetMapping("/getSortedJobs")
     public String getSortedJobs(Model model) {
         List<Person> people = initDB.getPeople();
         List<Person> sortedPeople = people.stream()
-                .sorted((o1, o2) -> o1.getJob().compareTo(o2.getJob()))
+                .sorted(Comparator.comparing(Person::getJob))  // Sử dụng Comparator để so sánh theo job
                 .toList();
         model.addAttribute("sortedPeople", sortedPeople);
         return "sorted-jobs"; // Trả về trang sắp xếp theo nghề nghiệp
     }
 
+
     @GetMapping("/getSortedCities")
     public String getSortedCities(Model model) {
         List<Person> people = initDB.getPeople();
         List<Person> sortedPeople = people.stream()
-                .sorted((o1, o2) -> o1.getCity().compareTo(o2.getCity()))
+                .sorted(Comparator.comparing(Person::getCity)) // Sử dụng Comparator để so sánh theo city
                 .toList();
         model.addAttribute("sortedPeople", sortedPeople);
-        return "sorted-cities.html"; // Trả về trang sắp xếp theo thành phố
+        return "sorted-cities"; // Trả về trang sắp xếp theo thành phố
     }
+
 }
