@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="107f03d2-add6-4823-abd0-0b8f6b8cb7dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-stream-api/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-stream-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-stream-api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-stream-api/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-stream-api/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-stream-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-stream-api/src/main/java/com/example/demostreamapi/Calcalator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-stream-api/src/main/java/com/example/demostreamapi/DemoStreamApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-stream-api/src/main/java/com/example/demostreamapi/Greeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-stream-api/src/main/java/com/example/demostreamapi/Vietnam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-stream-api/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-stream-api/src/test/java/com/example/demostreamapi/DemoStreamApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/src/main/java/com/example/demothymeleaf/DemoThymeleafApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/src/main/java/com/example/demothymeleaf/comtroller/WebController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/src/main/java/com/example/demothymeleaf/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/src/main/resources/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo-thymeleaf/src/test/java/com/example/demothymeleaf/DemoThymeleafApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/src/main/java/com/example/demo/controller/WebController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/src/main/java/com/example/demo/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/src/main/resources/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/demo_thymeleaf/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/stream_api/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/stream_api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/stream_api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/stream_api/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/stream_api/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/stream_api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/stream_api/src/main/java/com/example/demo/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/stream_api/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/stream_api/src/main/java/com/example/demo/Greeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/stream_api/src/main/java/com/example/demo/Vietname.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/stream_api/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_12/stream_api/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2tzVdmoEplMsYpZi25LlTkxNhHH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/admin/Documents/Java-SpringBoot/Springboot/Javascript/day_12_thymeleaf/Ex"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="107f03d2-add6-4823-abd0-0b8f6b8cb7dc" name="Changes" comment="" />
+      <created>1741354979650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741354979650</updated>
+    </task>
+    <servers />
+  </component>
+</project>
