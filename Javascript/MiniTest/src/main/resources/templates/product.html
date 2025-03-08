@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" th:href="@{/css/style1.css}">
+</head>
+<body>
+<h1>Danh sách sản phẩm</h1>
+
+<form th:action="@{/search}" method="get">
+    <input type="text" name="keyword" placeholder="Nhập từ khóa tìm kiếm...">
+    <button type="submit">Tìm kiếm</button>
+</form>
+
+<hr>
+
+<form th:action="@{/filter}" method="get">
+    <label for="minPrice">Giá từ:</label>
+    <input type="number" id="minPrice" name="minPrice" value="0">
+    <label for="maxPrice">đến:</label>
+    <input type="number" id="maxPrice" name="maxPrice" value="1000000">
+    <button type="submit">Lọc</button>
+</form>
+
+<div class="product-grid">
+    <div class="product-item" th:each="product : ${products}">
+        <img th:src="@{${product.thumbnail}}" alt="Product Image">
+        <h3 th:text="${product.name}"></h3>
+        <p th:text="${product.description}"></p>
+        <p class="price" th:text="${product.price} + ' VND'"></p>
+        <a th:href="@{'/products/' + ${product.id}}">Xem chi tiết</a>
+    </div>
+</div>
+
+<div class="pagination">
+    <a th:if="${currentPage > 0}" th:href="@{/?page={page}&size={size}(page=${currentPage - 1}, size=${size})}">Previous</a>
+    <span th:each="i : ${#numbers.sequence(0, totalPages - 1)}">
+            <a th:href="@{/?page={page}&size={size}(page=${i}, size=${size})}" th:text="${i + 1}" th:class="${currentPage == i ? 'active' : ''}"></a>
+        </span>
+    <a th:if="${currentPage < totalPages - 1}" th:href="@{/?page={page}&size={size}(page=${currentPage + 1}, size=${size})}">Next</a>
+</div>
+
+<!--<table border="1">-->
+<!--    <thead>-->
+<!--    <tr>-->
+<!--        <th>Id</th>-->
+<!--        <th>Name</th>-->
+<!--        <th>Description</th>-->
+<!--        <th>Thumbnail</th>-->
+<!--        <th>Price</th>-->
+<!--        <th>Rating</th>-->
+<!--        <th>Click xem chi tiết</th>-->
+<!--    </tr>-->
+<!--    </thead>-->
+
+<!--    <tbody>-->
+<!--    <tr th:each="product: ${products}">-->
+<!--        <td th:text="${product.id}"></td>-->
+<!--        <td th:text="${product.name}"></td>-->
+<!--        <td th:text="${product.description}"></td>-->
+<!--        <td><img th:src="@{${product.thumbnail}}" alt="Product Image"></td>-->
+<!--        <td th:text="${product.price}"></td>-->
+<!--        <td th:text="${product.rating}"></td>-->
+<!--        <td><a th:href="@{'/products/' + ${product.id}}">Xem chi tiết</a></td>-->
+<!--    </tr>-->
+<!--    </tbody>-->
+<!--</table>-->
+
+
+</body>
+</html>

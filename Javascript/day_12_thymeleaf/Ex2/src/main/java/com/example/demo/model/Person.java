@@ -1,13 +1,12 @@
 package com.example.demo.model;
 
-import lombok.AllArgsConstructor;
+import lombok.*;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
-@Setter
 @Getter
+@Setter
 public class Person {
     private String id;
     private String fullName;
@@ -16,5 +15,4 @@ public class Person {
     private String city;
     private double salary;
     private String birthday;
-
 }

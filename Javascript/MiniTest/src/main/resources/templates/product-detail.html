@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" th:href="@{/css/style2.css}">
+</head>
+<body>
+<h1>Chi tiết sản phẩm</h1>
+<a th:href="@{/}" class="back-button">Quay lại danh sách sản phẩm</a>
+<div th:if="${product}">
+    <h2 th:text="${product.name}"></h2>
+    <p th:text="${product.description}"></p>
+    <td><img th:src="@{${product.thumbnail}}" alt="Product Image"></td>
+    <p>Giá: <span th:text="${product.price}"></span></p>
+    <p>Đánh giá: <span th:text="${product.rating}"></span></p>
+</div>
+<div th:unless="${product}">
+    <p>Không tìm thấy sản phẩm.</p>
+</div>
+
+
+</body>
+</html>

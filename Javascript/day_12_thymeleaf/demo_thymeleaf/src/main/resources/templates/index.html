@@ -12,14 +12,57 @@
 <p th:text="${name}"></p>
 <p th:text="${salary}"></p>
 
-<ul>
-    <li th:each="person : ${people}">
-        <span th:text="${person.name}"></span>
-        <span th:text="${person.gender.equals('M') ? 'Name' : 'Nu'}"></span>
-        <span th:if="${person.age >= 18}" >Trên 18 tuổi</span>
-        <span th:if="${person.age < 18}" >Dưới 18 tuổi</span>
-    </li>
-</ul>
+<!--<ul>-->
+<!--    <li th:each="person : ${people}">-->
+<!--        <span th:text="${person.id}"></span>-->
+<!--        <span th:text="${person.name}"></span>-->
+<!--        <span th:text="${person.gender.equals('M') ? 'Name' : 'Nu'}"></span>-->
+<!--        <span th:if="${person.age >= 18}" >Trên 18 tuổi</span>-->
+<!--        <span th:if="${person.age < 18}" >Dưới 18 tuổi</span>-->
+<!--    </li>-->
+<!--</ul>-->
+<h2>Danh sach user</h2>
+
+<form>
+    <input placeholder="Enter name ..." name="keyword"/>
+</form>
+<hr>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr th:each="person : ${pageResponse.getData()}">
+            <td th:text="${person.id}" >Id</td>
+            <td th:text="${person.name}">Name</td>
+            <td th:text="${person.gender}">Gender</td>
+            <td th:text="${person.age}">Age </td>
+            <td>
+                <a th:href="'/person/' + ${person.id}">Xem chi tiet</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<a href="#">
+    <button>Prev</button>
+</a>
+
+
+<a th:each="page: ${#numbers.sequence(1,pageResponse.getTotalPages())}" th:href="'?page=' + ${page}">
+    <button th:text="${page}" >1</button>
+</a>
+
+<a href="#">
+    <button>Next</button>
+</a>
 
 <script th:src="@{/js/main.js}"></script>
 </body>

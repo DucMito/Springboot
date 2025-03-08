@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung",
+    "description": "Isoimmunization from other and unspecified blood-group incompatibility, delivered, with or without mention of antepartum condition",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1473757.9,
+    "rating": 1.3
+  },
+  {
+    "id": 2,
+    "name": "LG",
+    "description": "Generalized convulsive epilepsy, with intractable epilepsy",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1120868.7,
+    "rating": 3.2
+  },
+  {
+    "id": 3,
+    "name": "Motorola",
+    "description": "Blisters, epidermal loss [second degree] of two or more digits of hand, not including thumb",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1580107.5,
+    "rating": 1.2
+  },
+  {
+    "id": 4,
+    "name": "Motorola",
+    "description": "Orofacial dyskinesia",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1983889.8,
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "name": "Philips",
+    "description": "Closed fracture of vault of skull with subarachnoid, subdural, and extradural hemorrhage, with brief [less than one hour] loss of consciousness",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1971678.5,
+    "rating": 1.2
+  },
+  {
+    "id": 6,
+    "name": "Energizer",
+    "description": "Scrotal varices",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1505109.0,
+    "rating": 1.7
+  },
+  {
+    "id": 7,
+    "name": "Realme",
+    "description": "Excessive amount of blood or other fluid during transfusion or infusion",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1232844.6,
+    "rating": 3.0
+  },
+  {
+    "id": 8,
+    "name": "ZTE",
+    "description": "Crushing injury of buttock",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1340473.4,
+    "rating": 2.9
+  },
+  {
+    "id": 9,
+    "name": "Lenovo",
+    "description": "Railway accident involving derailment without antecedent collision injuring passenger on railway",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1250857.0,
+    "rating": 2.7
+  },
+  {
+    "id": 10,
+    "name": "Maxon",
+    "description": "Inflammatory disease of breast",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1953180.7,
+    "rating": 4.8
+  },
+  {
+    "id": 11,
+    "name": "Vodafone",
+    "description": "Tuberculosis of mastoid, tubercle bacilli found (in sputum) by microscopy",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1459989.5,
+    "rating": 2.3
+  },
+  {
+    "id": 12,
+    "name": "Samsung",
+    "description": "Unspecified disorder of joint, pelvic region and thigh",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1250278.9,
+    "rating": 4.7
+  },
+  {
+    "id": 13,
+    "name": "Lenovo",
+    "description": "Other open skull fracture without mention of intracranial injury, with loss of consciousness of unspecified duration",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1397954.8,
+    "rating": 1.8
+  },
+  {
+    "id": 14,
+    "name": "alcatel",
+    "description": "Other and unspecified cerebral laceration and contusion, without mention of open intracranial wound, with moderate [1-24 hours] loss of consciousness",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1049947.5,
+    "rating": 1.5
+  },
+  {
+    "id": 15,
+    "name": "Samsung",
+    "description": "Unspecified disorder of gallbladder",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1523846.8,
+    "rating": 2.2
+  },
+  {
+    "id": 16,
+    "name": "Samsung",
+    "description": "Poisoning by anti-common cold drugs",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1389294.6,
+    "rating": 1.9
+  },
+  {
+    "id": 17,
+    "name": "Icemobile",
+    "description": "One eye: severe vision impairment; other eye: vision not specified",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1452420.5,
+    "rating": 4.6
+  },
+  {
+    "id": 18,
+    "name": "BlackBerry",
+    "description": "Other specified crystal arthropathies, upper arm",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1236016.3,
+    "rating": 2.9
+  },
+  {
+    "id": 19,
+    "name": "LG",
+    "description": "Subserous leiomyoma of uterus",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1661163.2,
+    "rating": 3.1
+  },
+  {
+    "id": 20,
+    "name": "alcatel",
+    "description": "Other and unspecified cerebral laceration and contusion, with open intracranial wound, unspecified state of consciousness",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1299225.9,
+    "rating": 3.4
+  },
+  {
+    "id": 21,
+    "name": "alcatel",
+    "description": "Malignant neoplasm of retroperitoneum",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1638956.6,
+    "rating": 4.0
+  },
+  {
+    "id": 22,
+    "name": "Samsung",
+    "description": "Conflagration not in building or structure",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1310240.2,
+    "rating": 2.2
+  },
+  {
+    "id": 23,
+    "name": "Philips",
+    "description": "Urethral stricture due to unspecified infection",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1387099.6,
+    "rating": 3.1
+  },
+  {
+    "id": 24,
+    "name": "Samsung",
+    "description": "Other specified heat effects",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1997347.9,
+    "rating": 4.3
+  },
+  {
+    "id": 25,
+    "name": "ZTE",
+    "description": "Retained foreign body of middle ear",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1371191.9,
+    "rating": 4.7
+  },
+  {
+    "id": 26,
+    "name": "Bird",
+    "description": "Agenesis of uterus",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1071939.3,
+    "rating": 2.4
+  },
+  {
+    "id": 27,
+    "name": "Nokia",
+    "description": "Subluxation of lens",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1869711.1,
+    "rating": 4.1
+  },
+  {
+    "id": 28,
+    "name": "Telit",
+    "description": "Subluxation of lens",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1958677.2,
+    "rating": 2.2
+  },
+  {
+    "id": 29,
+    "name": "i-mate",
+    "description": "Spina bifida with hydrocephalus, cervical region",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1191663.1,
+    "rating": 4.1
+  },
+  {
+    "id": 30,
+    "name": "Oppo",
+    "description": "Poisoning by agricultural and horticultural chemical and pharmaceutical preparations other than plant foods and fertilizers, undetermined whether accidentally or purposely inflicted",
+    "thumbnail": "https://file.hstatic.net/200000289371/file/dong-ho-thong-minh-tre-em-kids-life-mau-den-dep_fa0031903c6d4522a40fac0eced58d8f_grande.jpg",
+    "price": 1096553.7,
+    "rating": 3.3
+  }
+]
